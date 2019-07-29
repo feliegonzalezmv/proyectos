@@ -11,7 +11,7 @@ Abre [http://localhost:3000](http://localhost:3000) para ver en el navegador
 
 El proyecto fue creado con el stack MERN( MongoBD, Express , React , Node)
 
-La única configuración que requiere e proyécto para ser inicializado es:
+La única configuración que requiere el proyécto para ser inicializado es:
 Ejecutar la consola.
 
 acceder a la carpeta donde se encuentra el archivo frontend y copiar la dirección
