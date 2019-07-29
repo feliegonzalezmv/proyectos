@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Prueba técnica pratech
 
-## Available Scripts
-
-In the project directory, you can run:
+## Frontend
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ejecuta la aplicación en en en el servidor.<br>
+Abre [http://localhost:3000](http://localhost:3000) oara ver en el navegador
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `Sobre el proyecto`
 
-### `npm test`
+El proyecto fue creado con el stack MERN( MongoBD, Express , React , Node)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La única configuración que requiere e proyécto para ser inicializado es:
+Ejecutar la consola.
 
-### `npm run build`
+acceder a la carpeta donde se encuentra el archivo frontend y copiar la dirección
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+luego ejecutar el comando:`cd ruta`
+donde ruta es la ruta en la cual se encuentra el proyecto
+por ultimo ejecutar: `npm start`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**Nota: Puede que se requiera instalar axios**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+en el cado caso que se requiera se ejecuta el comando `npm install axios`
 
-### `npm run eject`
+## Backend 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para la parte del backend fueron necesarias multiples dependencias 
+las cuales se encuentran en el archivo "packaje.json" 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Los comandos que se utilizan para ejecuar el proyecto son los siguientes
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+###  `mongod`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Se debe contar con mongoDB y ejecutar `mongod` para inicializar mongo
 
-## Learn More
+###  `mongo` 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Se debe ingresar el comando `mongo`  para interactuar con la base de datos
+y ejecutar el comand `use task` para crear la base de datos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Nota: la base de datos debe llamarse "task" debido a la configuracion del actual del proyecto**
 
-### Code Splitting
+###  `nodemon server` 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**Se debe contar con Nodemon**
+si no se posee nodemon el comando de instalacion es `npm install -g nodemon` 
 
-### Analyzing the Bundle Size
+En la consola se debe seleccionar la ruta en la que se encuetra el proyecto y ejecutar el comando
+`nodemon server` para correr el servidor
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+mostrara
+**MongoDB database connection established successfully
+**
 
-### Making a Progressive Web App
+Si se configuro Correctamente
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Gracias por la oportunidad y espero valoren el gran esfuerzo que llevo realizar este CRUD
+Espero les guste.
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Att: Juan Felipe Gonzalez Ortiz
