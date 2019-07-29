@@ -5,7 +5,7 @@
 ### `npm start`
 
 Ejecuta la aplicación en en en el servidor.<br>
-Abre [http://localhost:3000](http://localhost:3000) oara ver en el navegador
+Abre [http://localhost:3000](http://localhost:3000) para ver en el navegador
 
 ### `Sobre el proyecto`
 
